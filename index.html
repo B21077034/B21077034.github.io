@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--下面是表達網頁的編碼，讓網頁可以理解中文-->
 		<meta charset="utf-8">
-		<title></title>
-		<script type="text/javascript" src="script.js"></script>	
-		<script type="text/javascript">
-			alert("請依照畫面上的指示進行，否則將植入木馬病毒");
-			document.write("請點選畫面上的所有按鈕獲得科翔的愛");
+		<title>科翔的網頁</title>
+		<script type="text/javascript" src="script.js">
 		</script>
 	</head>
 	<body>
-		<button onclick="alert('你是我最大的寶藏');">驚喜</button>
+		<!--基本標籤-->
+		<!--標題h1文字為最大~h6數字越大文字越小-->
+		<h1>第一篇文章</h1>
+		<!--p是普通文字-->
+		<p>請點選畫面上的所有按鈕獲得科翔的愛</p>
+		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAulBMVEXdLkT////dLELdKUDcHjncIzzcJj7cHDjcJDz78/XcHzz9+vvyx83dLUbzys/0z9T22t789vjtqrLnhJDur7fspK3gTF/45OfeOlDR1N733+LxwcffRFj67vDePVPdMkrpkJvmgIzrnabiXm/hV2jkbnzvtbzleIXo6u/X2eLplqDiYnLjaXj0QDPIy9fhWmr3uLbshoPsrKv7zcr8a17gQjz6YVXrHAD2TkDvMiPqurrjKiDzLBn80M4EHk+dAAAJoUlEQVR4nO2da3ejOBKGERLIhthg41ti4/s18SY907O7s7O9//9vrcCxYxuBhZCwqcl7Tuek+0NLD6pSlQohGQi6jHt3QLu+Cauvb8Lq65uw+vomrL6+CasvScK+N+x0X6dBMH2dt9dNP1Tbq1h1v9npzqNGgtduZyjbRm7CutedLQ2HRLKY4l8cx/wIOr4r14eEWl4nWEyc80Yoa6SxnLW9et7/LBeh682XBiE1bBrXMm3Wjcai6+ftQEIv3Y+GQyxeG9gi1FjOvVxPUpywNdw0COE0fN4F4gwCLzfUl7zp6FYbNnuSmyfx/1KU0JuZxMpq+dQDi0xe+1J4/fmAjZ1IGzXaCEStRYxw3RPDO0I6q/wD6a0cIoJ3epDLoSpCt9ug4k0fJNz+UcMereVsw6aTtoBH3iZsT4j48J21T5bizjLs5Ri+L5lksC5MOBxTGb6YkS7EfOVlkdtGjsJ0dOs5ZhP236Tbjhmd4LYZuVPHLtAGpqvseS2TcF6o7UhkfOsRN8ekYBs1py1J2F9KOeClMA2ymneDQkZykEnfMjK6dMI1LjqAB5FeuhW9jIoO4EG1RvrMnUoYSM8w18JO2oS3LuwFR5l0mpOw9aHm4WY2P1X2EJnoWysPYX+QN/zeaH6fbMPdU6VtWGO+N3AJ/YYq6zmKfFw/4frSUtwGnryIEjad4vPbtazeJWI4Ug3IEDEvw+AQPjkK3eOkS8RwrNpKImGTk/AnCZsKoiBP54jhSAcgQ7SThpog9G09gAxxeUzhWpoAI19MTDfXhP2Geh88yjrOqAv1PngUHlwXcq4IWyN9gGxGPWRwG32ALL35yCbc62ycxcUou+mqjYPXIrMswqnextmS1UeeykyGJ9pOJ3zSDMjcZBSOdfpBpOgxphCGE92NRzOB/jbskZtCuNLrhAdpNtFYJOATDrXbaGmiTzzC+qSMx1uO8KDFIQzKsNGyZE2ThD4cG41EXhKEb7pSxfuotrom1B8KSxb1rgiXsIaQBcXFJWET2hAyT/QuCIF5YaSjJx4IfYW1w4eR0z8jBBULj/qMiTFhvQEnnfmSOXFPhB2IRsoCxvBEuNC/ormH7NWRsO/cuy+a5NQ/CYEa6WdZyIAZDA+KQ6IBdSaNFM+mjPAJqpEyM/VjwinEcH8Q6caE4JYVX4rihYFcuICG2YgIfajRMBLLvg20hjvRMEdsMsI5ZELaZoQrtdsuHktWwAiXMNPug+w9Mtwx1IwmEu4hA27OFskcu0YIOBxGAbFlhJDDYbRENMAufw9y+sYLbELyYoAslX6J+H+DMYTvh9Dn0vBvQNiCndOwiI9A56XmiK0tepDXFngZrQ8hJ6b2ihG+Qg755DWq08B7hf8lumaEHugx9BhhHXJAdFpRzVvr1u77Cvfiqv4M7nsLK4gJwb4gZW7YiQkBTzXRvihGGML1QzM8vOXWvnv+XsKjz/f4G6h1fWvzSdiGmtWQ9ich2Kkm/rQkInRL+QiifJkN97jraw9zAWXvT/va2jDNNHbDAyHQqrDjf+2gHUB0RHMMfo9wcEYIcuMXaZ4RQiyafm6CPn6NADBxs2YX31sM4ZkpeboghJfWRFvaLr57AlfKsIIrQg/a+iLx7Rq0iltUZbsiBLaBj7QThCEsQqeeIIS1R7G2QUlCUB9ZEo9DCOlVqb1EPEJA26HpmkvogjlUAQ8QlxBOwCDtFEIom2mP66YkIZRX+mSO0gjDzJO0qyLTaKUSwvjI63IIrwhDs/qDaDZaGYQQBjH6Ii+DsPrT6eVEmiRE3apPp7SDsgndEk400yk8RjcIq56d0sSh0MnzSyv9pdfp3J0swkrXpGjynF3OKbsVXuwf69w3CPuVjRhmg3PPDu8s6MpGjESkSCOsaj3D7vFguIReNbecOtwLQ/inzlfynTDhn97PJ3RLOEdVteJNbMKEVTzLlKZcwJR2v4XWE6l1iKTdhZJGWK+YneJx2p09qXeUVMxO02w0656ZStlpyjyaTehWaOswP9bfIqzSubucJYUIIZpXBZHOMygy7+x6q8Y6yuLc0yNIGFZiHYUnmXeTZt8sV4kdfST7NskbtwO+Pr4rZjrhbcLHd8VsJxQgfPTs7fwEfTlC5Gu5/UmVTP6qNxch6jyyK3IrM3kJ0exxJ9TUJVM+Qp3XMxWTlaxwyxE+6myTvL1KlhC9POSrYbPBvQ1QihA96b6jSUImbQr1XfDm8Qf8RJFm3pGbm1D7bV65lX61qiQhWj1WzCCb213OSfhYMcN6E+63OKG+axnzq9YTuDY+NyEKB4+CaI9FAmF+Qq33W+YR5ypORYTItx8BEWOhSC9FiJoPsHnRtLOrFsUINd0VnAvQEUtlZAnR8M6IpvN0u5OFCNFQ04XIgoDJPU/KCe86iqaTG1CCEK3vttCQGEEpwrsZqkny+qAs4Z0MNf8kI094l6CBc8bBYoSoaZSd3eDGzcqoUkLkN8pNw7FYUUYhIeqXutKwx3mSbTWEKByVtyS2eqF0P+UJUWtZFqK1EF/wqiRE7r6c2g1d3e6LHkKEgjIQhatqOghRV3sGZ9Lu7W5oJERDzct+jCVSUaWEyJ/ojBrWQDYMqiNEYU/flEo+chTVtBEitNG01jCpwAvQm1JByOYbHc6IBV5hC0gJIfI0OGNtIplqX0kNIQqXqiMj/ZBP1C6kiDAK/iqd0SwY5s+kjBCtFUZGG0st57lSR4j6yiyVqLLQSAoJEZoSFcOIMzZtS0gpIXqaFN/oV5uos9BIaglRfV9wwjHpvngacyHFhAh1nCKh0XaURPlzKSdE/Q/pYTTpQrockyr1hCyJkxxG2ym4FORKByHqLySGUcsAIk2ECLVx3knVMpV74EGaCFG4yhUbMd0onkJP0kXIYuNY2FRNOpJ7JyEifYTIndtiq38LC27Ck5JGQjbjbJzbpmqTmS4DjaWVkC2NlzQ7cmD6VrjWlC3NhMwdexklDkx7OfeO5Jd2QoSG4xRGTMdFi6ECKoGQLY5HnNCB6Ugv34/f+uFvv5dDGDFe+SOzT83j9/OPP//5x7/+3SyJkPnjG7GO8dG06ELtIpCjH3/+g+k/f5VGiJC/wbGxYmLP1BQKM1X/FRH+NyyRkKVy3RGhtNdVWIXJ0E+G+OuvsvzwJO9VX352rR+/fv1e0lx6L/3vJwJOGAsa4XbLfux2Z/8Cg3D7vHt+f37fvu92u+j3Z4Ten3fs7+wnDMJ3BuUySMb1vN2xH9FYRn/bbp9hELJx27mH4WOjyP5sXTZ6DHbbAjKGJ7nPiX8CRsjRN2H19U1Yff0fkK+lJ31uNHUAAAAASUVORK5CYII=">
+		<!--br是換行-->
+		<br/>
+		<button onclick="alert('你是我最大的寶藏');"
+		>驚喜</button>
+		<br/>
+		<br/>
 		<a href="https://drive.google.com/file/d/1Hl2JUmMI_pmcAbksq0IqMupFA-wLI63i/view?usp=sharing">你很漂亮</a>
+		<!--hr是分隔底線-->
+		<hr/>
+		<br/>
+		<hr/>
+		<h2>第二篇文章</h2>
+		<p>今天天氣不好</p>
 	</body>
 </html>
